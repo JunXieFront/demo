@@ -6,7 +6,19 @@
 				"navigationBarTitleText": "uni-app"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/party/party",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/share/share",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/personal/personal",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
