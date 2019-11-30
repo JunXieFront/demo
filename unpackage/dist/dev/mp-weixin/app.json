@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/personal/message/message",
+    "pages/personal/order/order",
     "pages/index/index",
     "pages/party/party",
     "pages/share/share",
