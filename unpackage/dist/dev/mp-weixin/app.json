@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/personal/detail/old_detail",
     "pages/personal/detail/detail",
     "pages/input/input",
     "pages/party/party",

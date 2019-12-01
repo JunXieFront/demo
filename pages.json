@@ -1,5 +1,8 @@
 {
 	"pages": [
+		{"path":"pages/personal/detail/old_detail",
+		"style":{}
+		},
 		{
 			"path":"pages/personal/detail/detail",
 			"style":{}

@@ -1,4 +1,5 @@
 <template>
+	<!-- party界面 -->
 	<view>
 		<view class="uni-padding-wrap">
 			<view class="page-section swiper">
@@ -49,7 +50,7 @@
 			>
 				卧室配置
 			</span>
-			<span style="font-size: 14px;margin-left: 10px;margin-top: 15px;">公共配置</span>
+			<span style="font-size: 13px;margin-left: 10px;margin-top: 15px;">公共配置</span>
 		</view>
 		<view style=" display: flex; justify-content: space-around;margin-top: 10px;">
 			<image src="../../../static/bed.png" style="height:20px; width:20px"></image>
@@ -103,9 +104,6 @@ export default {
 		};
 	},
 	methods: {
-		changeTab(index) {
-			this.currentTab = index;
-		}
 	}
 };
 </script>

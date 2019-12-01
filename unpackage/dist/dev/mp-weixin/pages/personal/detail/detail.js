@@ -208,6 +208,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
 var _default =
 {
   data: function data() {
@@ -235,10 +236,7 @@ var _default =
 
 
   },
-  methods: {
-    changeTab: function changeTab(index) {
-      this.currentTab = index;
-    } } };exports.default = _default;
+  methods: {} };exports.default = _default;
 
 /***/ }),
 /* 21 */
