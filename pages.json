@@ -1,5 +1,11 @@
 {
 	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
 			"path": "pages/detail/old_detail",
 			"style": {}
 		},
@@ -23,11 +29,6 @@
 		},
 		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		}, {
 			"path": "pages/share/share",
 			"style": {}
 		}, {
@@ -36,6 +37,34 @@
 		}
 
 	],
+	"tabBar": {
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "老人",
+			"iconPath": "/static/icon/oldman.png",
+			"selectedIconPath": "/static/icon/oldman_sel.png"
+
+		}, {
+			"pagePath": "pages/party/party",
+			"text": "聚会",
+			"iconPath": "/static/icon/party.png",
+			"selectedIconPath": "/static/icon/party_sel.png"
+
+		}, {
+			"pagePath": "pages/share/share",
+			"text": "共享",
+			"iconPath": "/static/icon/share.png",
+			"selectedIconPath": "/static/icon/share_sel.png"
+
+		},
+		 {
+		 	"pagePath":"pages/personal/personal",
+		 	"text":"我的",
+		 	"iconPath":"/static/icon/personal.png",
+		 	"selectedIconPath":"/static/icon/personal_sel.png"
+		 	
+		 }]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

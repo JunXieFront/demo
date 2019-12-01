@@ -1,6 +1,8 @@
 {
   "navigationBarTitleText": "uni-app",
   "usingComponents": {
-    "navto": "/component/navto/navto"
+    "navto": "/component/navto/navto",
+    "banner": "/component/banner/banner",
+    "listcontainer": "/component/listcontainer/listcontainer"
   }
 }

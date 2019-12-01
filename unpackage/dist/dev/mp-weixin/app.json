@@ -1,12 +1,12 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/detail/old_detail",
     "pages/detail/detail",
     "pages/input/input",
     "pages/party/party",
     "pages/order/order",
     "pages/message/message",
-    "pages/index/index",
     "pages/share/share",
     "pages/personal/personal"
   ],
@@ -16,6 +16,34 @@
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "老人",
+        "iconPath": "/static/icon/oldman.png",
+        "selectedIconPath": "/static/icon/oldman_sel.png"
+      },
+      {
+        "pagePath": "pages/party/party",
+        "text": "聚会",
+        "iconPath": "/static/icon/party.png",
+        "selectedIconPath": "/static/icon/party_sel.png"
+      },
+      {
+        "pagePath": "pages/share/share",
+        "text": "共享",
+        "iconPath": "/static/icon/share.png",
+        "selectedIconPath": "/static/icon/share_sel.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "/static/icon/personal.png",
+        "selectedIconPath": "/static/icon/personal_sel.png"
+      }
+    ]
   },
   "usingComponents": {}
 }

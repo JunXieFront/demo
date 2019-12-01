@@ -104,11 +104,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"component/navto/navto":1};
+/******/ 		var cssChunks = {"component/listcontainer/listcontainer":1,"component/navto/navto":1,"component/list/list":1,"component/label/label":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"component/navto/navto":"component/navto/navto"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"component/banner/banner":"component/banner/banner","component/listcontainer/listcontainer":"component/listcontainer/listcontainer","component/navto/navto":"component/navto/navto","component/list/list":"component/list/list","component/label/label":"component/label/label"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

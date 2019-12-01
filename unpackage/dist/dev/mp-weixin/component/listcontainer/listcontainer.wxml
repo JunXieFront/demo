@@ -1,0 +1,1 @@
+<view class="list-container"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><indexlist vue-id="{{'1-'+__i0__}}" price="{{item.price}}" title="{{item.title}}" size="{{item.size}}" side="{{item.side}}" floor="{{item.floor}}" transport="{{item.transport}}" labels="{{item.labels}}" imgsrc="{{item.src}}" bind:__l="__l"></indexlist></block></view>

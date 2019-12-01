@@ -1,1 +1,1 @@
-<view><navto vue-id="1" list="{{list}}" bind:__l="__l"></navto></view>
+<view><banner vue-id="1" list="{{list}}" bind:__l="__l"></banner><view class="navto"><navto vue-id="2" list="{{list}}" bind:__l="__l"></navto></view><view class="com"><view class="text_good">优选</view><view class="arrow"></view></view><listcontainer vue-id="3" list="{{con}}" bind:__l="__l"></listcontainer></view>

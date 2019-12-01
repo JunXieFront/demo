@@ -1,1 +1,0 @@
-<view class="root" id="component"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="id"><view><navigator url="{{item.url}}"><image class="img _img" src="{{item.src}}"></image><view class="text">{{item.text}}</view></navigator></view></block></view>
