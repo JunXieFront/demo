@@ -1,11 +1,11 @@
 {
-	"pages": [
-		{"path":"pages/personal/detail/old_detail",
-		"style":{}
+	"pages": [{
+			"path": "pages/detail/old_detail",
+			"style": {}
 		},
 		{
-			"path":"pages/personal/detail/detail",
-			"style":{}
+			"path": "pages/detail/detail",
+			"style": {}
 		},
 		{
 			"path": "pages/input/input",
@@ -14,11 +14,11 @@
 		{
 			"path": "pages/party/party",
 			"style": {}
-		},{
-			"path": "pages/personal/order/order",
+		}, {
+			"path": "pages/order/order",
 			"style": {}
 		}, {
-			"path": "pages/personal/message/message",
+			"path": "pages/message/message",
 			"style": {}
 		},
 		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages

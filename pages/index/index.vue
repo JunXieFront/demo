@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import navto from '../../component/navto.vue';
+import navto from '../../component/navto/navto.vue';
 export default {
 	data() {
 		return {

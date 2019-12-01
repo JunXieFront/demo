@@ -1,6 +1,6 @@
 {
   "navigationBarTitleText": "uni-app",
   "usingComponents": {
-    "navto": "/component/navto"
+    "navto": "/component/navto/navto"
   }
 }

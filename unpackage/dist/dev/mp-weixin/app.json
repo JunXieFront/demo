@@ -1,11 +1,11 @@
 {
   "pages": [
-    "pages/personal/detail/old_detail",
-    "pages/personal/detail/detail",
+    "pages/detail/old_detail",
+    "pages/detail/detail",
     "pages/input/input",
     "pages/party/party",
-    "pages/personal/order/order",
-    "pages/personal/message/message",
+    "pages/order/order",
+    "pages/message/message",
     "pages/index/index",
     "pages/share/share",
     "pages/personal/personal"
