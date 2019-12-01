@@ -1,9 +1,11 @@
 {
   "pages": [
-    "pages/personal/message/message",
-    "pages/personal/order/order",
-    "pages/index/index",
+    "pages/personal/detail/detail",
+    "pages/input/input",
     "pages/party/party",
+    "pages/personal/order/order",
+    "pages/personal/message/message",
+    "pages/index/index",
     "pages/share/share",
     "pages/personal/personal"
   ],

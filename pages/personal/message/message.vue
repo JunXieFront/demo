@@ -8,29 +8,31 @@
 		</view>
 		<navigator url="person_message/person_message">
 			<view class="btn_msg">
-				<image src="" class="btn_img"></image>
+				<image src="../../../static/order.png" class="btn_img"></image>
 				<view class="msg_txt">我的订单</view>
 				<view class="msg_icon"></view>
 			</view>
 		</navigator>
 		<navigator url="history/history">
 			<view class="btn_msg">
-				<image src="" class="btn_img"></image>
+				<image src="../../../static/room.png" class="btn_img"></image>
 				<view class="msg_txt">我的房间</view>
 				<view class="msg_icon"></view>
 			</view>
 		</navigator>
-		<navigator url="">
+		<navigator >
 			<view class="btn_msg">
-				<image src="" class="btn_img"></image>
+				<image src="../../../static/party.png" class="btn_img"></image>
 				<view class="msg_txt">参与Party</view>
 				<view class="msg_icon"></view>
+			</view>
 		</navigator>
-		<navigator url="">
+		<navigator>
 			<view class="btn_msg">
-				<image src="" class="btn_img"></image>
+				<image src="../../../static/about.png" class="btn_img"></image>
 				<view class="msg_txt">关于我们</view>
 				<view class="msg_icon"></view>
+			</view>
 		</navigator>
 		
 		

@@ -1,20 +1,29 @@
 {
-	"pages": [{
-			"path":"pages/personal/message/message",
+	"pages": [
+		{
+			"path":"pages/personal/detail/detail",
 			"style":{}
 		},
 		{
+			"path": "pages/input/input",
+			"style": {}
+		},
+		{
+			"path": "pages/party/party",
+			"style": {}
+		},{
 			"path": "pages/personal/order/order",
 			"style": {}
-		}, //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		}, {
+			"path": "pages/personal/message/message",
+			"style": {}
+		},
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
-		}, {
-			"path": "pages/party/party",
-			"style": {}
 		}, {
 			"path": "pages/share/share",
 			"style": {}
